@@ -53,7 +53,7 @@ const Contact =() => {
 						  </Row>
 						  <Row className=" tc linkButton">
 						    <h2 className="ma4">View my resume </h2> 
-						    <div className="ma4 tc"><a href="https://dirk005.github.io/resume/" rel="noopener noreferrer"target="_blank">Resume</a></div>
+						    <div className="ma4 tc"><a href="https://dirk005.github.io/resume/" rel="noopener noreferrer"target="_blank" className="ma4 tc">Resume</a></div>
 						  </Row>
 					    </Container>
 				</article>	
