@@ -9,7 +9,7 @@ const Header = () => {
 	return(
 		<ScrollableAnchor id={'home'}>
 		<div className="headerStyle">
-			<article className="vh-100 dt w-100 ">
+			<article className="vh-100 dt w-100 overlay ">
 	  			<div className="dtc v-mid tc white ph3 ph4-l">
 	   				 
 	   				 <h3 className=" f1-m f-subheadline-l fw3 tc" >Hi my name is Dirk Jansen van Rensburg</h3>

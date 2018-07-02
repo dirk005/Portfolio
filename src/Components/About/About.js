@@ -2,8 +2,6 @@ import React from 'react';
 import './About.css';
 import { Jumbotron } from 'reactstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
-import Tilt from 'react-tilt';
-
 import { configureAnchors } from 'react-scrollable-anchor'
 configureAnchors({offset: -60, scrollDuration: 200})
 
