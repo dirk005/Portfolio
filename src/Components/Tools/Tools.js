@@ -38,8 +38,7 @@ const Tools = () => {
 						        <Col xs="6" sm="3" className="pa4 colStyle"><fonts><i className="icon-jquery icon iconJquery"></i><br/>jQuery</fonts></Col>
 						        <Col xs="6" sm="3" className="pa4 colStyle"><fonts><i className="icon-shell icon iconShell"></i><br/>Command prompt</fonts></Col>
 				        	</Row>		
-					    </Container>
-					  
+					    </Container>					  
 				</article>	
 			</div>
 		</ScrollableAnchor>

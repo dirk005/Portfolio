@@ -8,8 +8,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import { configureAnchors } from 'react-scrollable-anchor'
 configureAnchors({offset: -60, scrollDuration: 200})
 
-const Contact =() => {
-	
+const Contact =() => {	
 	return(
 		<ScrollableAnchor id={'contact'}>
 			<div className="contactStyle" >

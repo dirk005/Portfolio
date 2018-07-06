@@ -2,16 +2,11 @@ import React from 'react';
 import Card from '../Card/Card.js';
 import './PortfolioList.css'
 
-
 const PortfolioList = ({sites}) => {
-console.log(sites)
-	return(
-		
+	return(		
 		<div className="listStyle">
 			{
 				sites.map((siteData, i) =>{
-					console.log(siteData.name)
-
 					return (
 						<Card		 				
 			 				id={i} 
@@ -23,8 +18,7 @@ console.log(sites)
 			 			);
 				})
 			}
-		</div>
-		
+		</div>		
 		);
 }
 

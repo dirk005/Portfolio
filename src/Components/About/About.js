@@ -11,23 +11,23 @@ const About = () => {
 			<div className="aboutStyle" >
 				<article className="vh-100 dt w-100 ">
 					<h1 className=" f2-m f-subheadline-l fw6 tc">ABOUT ME</h1>
-		   			<div className=' ma4 tc'>
-						 
-		 						 <img className='profileImage grow'  src='https://dirk005.github.io/resume/images/profile.png' alt='Logo'/> 
-		 				
+		   			<div className=' ma4 tc'>						 
+		 				<img className='profileImage grow'  src='https://dirk005.github.io/resume/images/profile.png' alt='Logo'/> 		 				
 					</div>		
-					      <Jumbotron className="ma4">    						
-					        <p className="lead">Hi, I’m Dirk Jansen van Rensburg. I’m a Full Stack Web Developer. I have been doing Web development since Sep 2017 and created a web design company <a href="https://focuswebdesign.co.za" rel="noopener noreferrer" target="_blank">Focus Web Design</a> to do web development part time. I push myself t learn new skills every day by doing courses in the field. My full-time job is to develop and maintain a hospital system for <a href="https://arwyp.com" rel="noopener noreferrer" target="_blank">Arwyp Medical Centre</a> using BASIC programming language for the past 8 years. My passion for web development came when we started integrating with dynamic programming into web development for the hospital system where I have created multiple sites for the Hospital link to a web server.   </p>
-					        <hr className="my-2" />
-					        <p>Thank for viewing my portfolio.</p>
-					        <div className="ma4">
+				      <Jumbotron className="ma4">  
+				      	<div className="lead">  						
+					        <p>Hi, my name is Dirk Jansen van Rensburg, and I am a Full Stack Web Developer. I have been doing Web development for ± 2 years. Within this time I have also created my own freelance web design company  <a href="https://focuswebdesign.co.za" rel="noopener noreferrer" target="_blank">Focus Web Design</a>. </p>
+					        <p>I am a quick learner and I constantly strive to learn new skills, pushing to myself to grow and keep up-to-date with the latest web technologies.</p>
+					        <p>I have been employed full-time by Arwyp Medical Centre for the last 8+ years. My duties include developing and maintaining their hospital management system, using the BASIC programming language.  The recent systematic integration of the system with dynamic web technologies is what has sparked my passion into the world of web development. This has resulted in numerous sites being setup for the hospital which are all linked to a central server.</p>
+				        </div>
+				        <hr className="my-2" />
+				        <p>Thank for viewing my portfolio.</p>
+				        <div className="ma4">
 					        <p className="lead ">
-
-					         <a className="aboutButtonStyle tc fw6" href='#portfolio'>Portfolio </a>
-					          
+					         <a className="aboutButtonStyle tc fw6" href='#portfolio'>Portfolio </a>					          
 					        </p>
-					        </div>
-					      </Jumbotron>					
+				        </div>
+				      </Jumbotron>					
 				</article>	
 			</div>
 		</ScrollableAnchor>

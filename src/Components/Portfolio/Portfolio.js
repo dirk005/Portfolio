@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import { Nav, NavItem, Dropdown, DropdownItem, DropdownToggle, DropdownMenu, NavLink } from 'reactstrap';
+import { Nav, NavItem } from 'reactstrap';
 import ScrollableAnchor from 'react-scrollable-anchor';
 import PortfolioList from '../PortfolioList/PortfolioList.js';
 import Scroll from '../Scroll/scroll.js';
@@ -71,8 +71,7 @@ render(){
     }) 
 	return(
 		<ScrollableAnchor id={'portfolio'}>
-			<div className="portfolioStyle" >
-			
+			<div className="portfolioStyle" >			
 				<article className="vh-100 dt w-100 ">
 					<h1 className=" f2-m f-subheadline-l fw6 tc">PORTFOLIO</h1>
 		   			 <Nav pills className="ma4">
@@ -84,8 +83,7 @@ render(){
 					        	value="All"  
 					        	id="all"
 					        	onClick={() => this.setSiteType('All')}
-					        />
-				            
+					        />				            
 				          </NavItem>				         
 				          <NavItem>
 				             <input 
@@ -95,8 +93,7 @@ render(){
 					        	value="React"   
 					        	id="React"
 					        	onClick={() => this.setSiteType('React')}
-					        />
-				           
+					        />				           
 				          </NavItem>
 				          <NavItem>
 				             <input 
@@ -148,8 +145,7 @@ render(){
 					        	onClick={() => this.setSiteType('CSS')}
 					        />
 				          </NavItem>
-				        </Nav>	
-				        
+				        </Nav>					        
 				         {sites.length !== 0 ? (
 				         	<Scroll>
        							<PortfolioList sites={filterSites} />
@@ -158,12 +154,10 @@ render(){
         					<div></div>
       					)}
 				</article>	
-
 			</div>
 		</ScrollableAnchor>
 		);
-}
-
+	}
 }
 
 export default Portfolio;
